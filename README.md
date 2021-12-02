@@ -26,7 +26,7 @@ class TreatmentClassifier(tf.keras.Model):
         x = self.dense(x)
         x = self.out(x)
         return x
-    ```
+ ```
 
 ## Results
 **Accuracy was c. 99% for both 'effective treatment' and 'attention to physical & environmental needs'. Some of the false positives and false negatives appear to have been misclassified. Training was smooth and showed consistent improvements in performance.
